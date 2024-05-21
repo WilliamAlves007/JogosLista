@@ -1,0 +1,55 @@
+.jogos-zerados-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 70%;
+    margin: 30px auto;
+    gap: 20px;
+
+}
+
+.ano-principal {
+    margin: 30px auto;
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+    width: 30%;
+    
+}
+
+.lista-jogos-ul {
+    transition: .5s;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    text-transform: uppercase;
+    padding: 2px;
+    text-align: center;
+    color: wheat;
+
+
+
+}
+
+.lista-jogos-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.btn-remove{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: orangered;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.btn-remove:hover{
+    background-color: orange;
+}

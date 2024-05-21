@@ -1,0 +1,56 @@
+.novos-jogos {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome_jogo {
+    flex-direction: column;
+}
+
+.novo-jogo_input {
+    padding: 0 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 30px;
+    border: none;
+
+}
+
+.novo-jogo_input_label {
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    color: orange;
+}
+
+
+.novo-ano_input {
+    padding: 0 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 30px;
+    border: none;
+}
+
+.novos-jogos_container>div {
+    margin: 20px 0;
+}
+
+.botao-principal {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 5px 0;
+    border-radius: 10px;
+    background-color: rgb(122, 146, 112);
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.botao-principal:hover {
+    background-color: rgb(106, 173, 40);
+    color: rgb(0, 0, 0);
+}
